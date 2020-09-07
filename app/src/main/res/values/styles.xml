@@ -1,11 +1,27 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TabTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorActiveTab</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Font" parent="Theme.MaterialComponents">
+        android:layout_marginTop="@dimen/margin8dp"
+        android:layout_marginLeft="@dimen/margin24dp"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryWhite"
+        android:padding="@dimen/padding8dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:fontFamily="casual"
+    </style>
 </resources>
